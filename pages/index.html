@@ -6,20 +6,71 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <title>Franklin Peñaranda | coffemanfp</title>
 </head>
 <body>
   <header class="header">
-    <h1 class="title">coffemanfp</h1>
+    <h1 class="header__title"><span>coffeman</span>fp</h1>
     <nav class="nav">
       <ul class="nav__list">
-        <li class="nav__item"><a class="nav__link" href="#section-1">Projects</a></li>
-        <li class="nav__item"><a class="nav__link" href="#section-2">About</a></li>
-        <li class="nav__item"><a class="nav__link" href="#section-3">Contact</a></li>
+        <li class="nav__item"><a class="nav__link" href="/projects">Projects</a></li>
+        <li class="nav__item"><a class="nav__link" href="/about">About</a></li>
+        <li class="nav__item"><a class="nav__link" href="/contact">Contact</a></li>
       </ul>
     </nav>
   </header>
-  <main class="main"></main>
-  <aside class="asise"></aside>
+  <main class="main">
+    <section class="intro">
+      <img class="intro__image" src="assets/images/flower.png" alt="Flower Icon">
+      <p class="intro__text">Engineer Redefining <span>Software</span> with Cutting-Edge Solutions</p>
+    </section>
+    <section class="photo">
+      <img class="photo__image" src="assets/images/me.png" alt="photo">
+    </section>
+    <section class="work">
+      <div class="slider">
+        <div class="slide">
+          <header class="slide__header">
+            <h2 class="work__title">Todo API</h2>
+            <a class="work__link" href="https://github.com/coffemanfp/todo-api">Todo API <img src="assets/images/arrow-up-right.svg" alt="arrow up arrow-up-right"></a>
+          </header>
+          <img class="work__image" src="assets/images/work_project_example.png" alt="photo">
+          <p class="work__text">Go, Docker, Node JS</p>
+          <hr>
+          <p class="work__description">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam impedit dolorem voluptatibus, error consectetur
+            eligendi non reprehenderit et quam itaque dicta quas, earum temporibus fugit. Quasi natus facere vero minima.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <p class="about__text">Franklin Peñaranda is a full stack engineer, skilled in bridging technology with intuitive design to create powerful applications.
+        Operating from Bogotá, Colombia, he develops solutions that serve a global audience.</p>
+      <h2 class="about__title">About</h2>
+    </section>
+    <section class="contact">
+      <header class="contact__header">
+        <a class="contact__link" href="/contact">Franklin Peñaranda <br> @coffemanfp <img src="assets/images/arrow-up-right.svg" alt="arrow up arrow-up-right"></a>
+      </header>
+      <h2 class="contact__title">Contact me</h2>
+    </section>
+    <section class="socials">
+      <ul class="socials__list">
+        <li class="socials__item">
+          <a href="https://github.com/coffemanfp">Github</a>
+        </li>
+        <li class="socials__item">
+          <a href="https://linkedin.com/in/coffemanfp">LinkedIn</a>
+        </li>
+        <li class="socials__item">
+          <a href="https://coffemanfp.github.io/cv">CV</a>
+        </li>
+      </ul>
+    </section>
+  </main>
 </body>
 </html>
