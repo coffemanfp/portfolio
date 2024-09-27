@@ -1,19 +1,29 @@
 {
-  "name": "portfolio",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "dev": "node --watch server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "express": "^4.21.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.5"
-  }
+	"name": "me",
+	"version": "1.0.0",
+	"main": "app.js",
+	"scripts": {
+		"dev": "node --watch server.js",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server.js"
+	},
+	"keywords": [],
+	"author": "Franklin Peñaranda",
+	"license": "ISC",
+	"description": "Franklin Peñaranda's portfolio. Welcome :)",
+	"dependencies": {
+		"express": "^4.21.0",
+		"pug": "^3.0.3"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.5"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/coffemanfp/me.git"
+	},
+	"bugs": {
+		"url": "https://github.com/coffemanfp/me/issues"
+	},
+	"homepage": "https://github.com/coffemanfp/me#readme"
 }
