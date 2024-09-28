@@ -1,0 +1,29 @@
+.header {
+  border-radius: var(--border-radius);
+  background-color: var(--main-color);
+  padding: var(--padding);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  height: 86px;
+
+  .header__title {
+    font-size: 25px;
+
+    span {
+      font-style: italic;
+      font-weight: normal;
+    }
+  }
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+
+  .nav__list {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+  }
+}

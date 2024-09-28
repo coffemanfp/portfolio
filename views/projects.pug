@@ -1,7 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-include includes/head.pug
+<head>
+  include includes/meta.pug
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/projects.css">
+  <link rel="stylesheet" href="css/slider.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <title>Franklin Peñaranda | coffemanfp</title>
+</head>
 <body>
   include includes/header.pug
+  <div class="container">
+    <main class="main">
+      <section class="main__description">
+        <p class="main__text">Julia Huang is an innovative AI artist, renowned for blending cutting-edge technology with creative expression. Based in LA, she crafts unique digital art experiences accessible globally.</p>
+        <p class="main__text">Julia Huang is an innovative AI artist, renowned for blending cutting-edge technology with creative expression. Based in LA, she crafts unique digital art experiences accessible globally.</p>
+        <p class="main__text">Julia Huang is an innovative AI artist, renowned for blending cutting-edge technology with creative expression. Based in LA, she crafts unique digital art experiences accessible globally.</p>
+        <p class="main__text">Julia Huang is an innovative AI artist, renowned for blending cutting-edge technology with creative expression. Based in LA, she crafts unique digital art experiences accessible globally.</p>
+        <a target="_blank" href="https://github.com/coffemanfp/todo" class="main__link">know more <img src="assets/images/arrow-up-right.svg" alt="arrow up arrow-up-right"></a>
+      </section>
+      <h2 class="main__title">
+        | Todo App - <span>Not only</span> one way to do things.
+      </h2>
+    </main>
+    <aside class="aside">
+      <figure class="slider-wrapper">
+        <div class="slider">
+          <img id="slide-1" src="assets/images/work_project_example.png" alt="photo">
+          <img id="slide-2" src="https://picsum.photos/300/200" alt="photo">
+          <img id="slide-3" src="https://picsum.photos/400/300" alt="photo">
+          <img id="slide-4" src="https://picsum.photos/500/400" alt="photo">
+          <div class="slider-nav">
+            <a href="#slide-1"></a>
+            <a href="#slide-2"></a>
+            <a href="#slide-3"></a>
+            <a href="#slide-4"></a>
+          </div>
+        </div>
+      </figure>
+      <section class="project-description">
+        <ul class="project-description__categories">
+          <li class="project-description__category">Project management</li>
+          <li class="project-description__category">Collaboration tool</li>
+          <li class="project-description__category">Task boards</li>
+          <li class="project-description__category">Team management</li>
+          <li class="project-description__category">Productivity app</li>
+          <li class="project-description__category">Project planning</li>
+          <li class="project-description__category">Kanban boards</li>
+        </ul>
+        <footer class="project-description__footer">
+          <a target="_blank" href="https://github.com/coffemanfp/todo" class="project-description__link">know more <img src="assets/images/arrow-up-right.svg" alt="arrow up arrow-up-right"></a>
+          <ul class="project-description__tools">
+            <li class="project-description__tool"><img src="assets/images/brand-golang.svg" alt="go"></li>
+            <li class="project-description__tool"><img src="assets/images/brand-docker.svg" alt="docker"></li>
+            <li class="project-description__tool"><img src="assets/images/brand-nodejs.svg" alt="nodejs"></li>
+            <li class="project-description__tool"><img src="assets/images/brand-typescript.svg" alt="typescript"></li>
+            <li class="project-description__tool"><img src="assets/images/brand-git.svg" alt="git"></li>
+          </ul>
+        </footer>
+      </section>
+    </aside>
+  </div>
+  
 </body>
 </html>
