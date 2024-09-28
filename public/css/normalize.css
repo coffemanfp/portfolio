@@ -1,6 +1,6 @@
 :root {
   --main-color: #E8BF9C;
-  --secondary-color: #AA6B3E;
+  --secondary-color: #b1784f;
   --background-color: #FFF4EA;
   --text-color: #222;
 
@@ -8,6 +8,7 @@
   
   --border-radius: 20px;
   --padding: 24px;
+  --gap: 25px;
 }
 
 html {
@@ -64,4 +65,9 @@ hr {
 
 * {
   box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+  padding: 0;
 }
