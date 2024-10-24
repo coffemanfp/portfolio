@@ -20,6 +20,11 @@ app.get("/projects", (_, res) => {
 	res.render("projects")
 });
 
+// Ruta para servir la página de proyectos
+app.get("/about", (_, res) => {
+	res.render("about")
+});
+
 app.listen(port, () => {
 	console.log(`Servidor escuchando en http://localhost:${port}`);
 });
