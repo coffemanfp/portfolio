@@ -1,8 +1,0 @@
-.bio {
-  background-color: var(--main-color);
-  border-radius: var(--border-radius);
-  padding: var(--padding);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
