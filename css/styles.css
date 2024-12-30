@@ -3411,6 +3411,7 @@ img.u-pull-left {
     object-fit     : cover;
     margin         : 0;
     vertical-align : bottom;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
 }
 
 .about-info__text {
@@ -3776,6 +3777,10 @@ img.u-pull-left {
 
 .modal-popup img {
     margin-bottom : var(--vspace-0_75);
+    max-height: 400px;    
+    width: 100%;
+    object-fit: cover;
+
 }
 
 .modal-popup h5 {
